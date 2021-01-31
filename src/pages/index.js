@@ -3,7 +3,6 @@ import styles from "../main/index.module.css"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import InfoBox from "../components/InfoBox"
-import CarouselFront from "../components/CarouselFront"
 
 const home = () => {
   return (

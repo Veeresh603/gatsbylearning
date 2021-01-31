@@ -10,6 +10,7 @@ const Hero = () => {
         <img
           src= {anagirl}
           className={styles.anagirlimage}
+          alt="anagirl"
         />
         <h2 className={styles.text01}>
         Let’s get you from <span className={styles.text01_animation}>If-Else</span> to <span className={styles.text01_animation}>What else!</span>

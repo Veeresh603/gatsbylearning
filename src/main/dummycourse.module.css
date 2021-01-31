@@ -18,6 +18,7 @@
     background-color: #ffffff;
   }
   .sidesection {
+  
     width: 400px;
     height: 100%;
     display: flex;
@@ -28,6 +29,7 @@
     background-color: rgba(103, 58, 183, 0.8);
   }
   .h1 {
+    
     color:#0511F2;
     width: 100%;
     height: 89px;
@@ -98,7 +100,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: rgba(120, 120, 120, 0.4);
+     background-color: white;
   }
   .text3 {
     font-size: 34px;
@@ -108,6 +110,7 @@
     width: 971px;
     height: 359px;
     font-size: 19px;
+    font-weight: 400;
   }
   .icon {
     width: 24px;
@@ -176,7 +179,8 @@
       font-size: 29px;
     }
     .text4 {
-      width: 477px;
+      width: 457px;
+      font-weight: 400;
       height: 636px;
     }
     .icon {
@@ -185,6 +189,9 @@
       height: 40px;
       display: block;
       position: absolute;
+    }
+    .text3{
+      font-size: 1px;
     }
   }
   @media(max-width: 479px) {
@@ -200,8 +207,8 @@
       text-align: center;
     }
     .text4 {
-      width: 100%;
-      font-size: 13px;
+      width: 90%;
+      font-size: 10px;
       text-align: justify;
       margin-left: 20px;
       margin-right: 20px;
