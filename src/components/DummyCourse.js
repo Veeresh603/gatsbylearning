@@ -52,7 +52,7 @@ const DummyCourse = () => {
             <h1 className={styles.text2} key={strapiId}>{title}</h1>
           </div>
           <div className={styles.column02}>
-            <ReactPlayer  width= "100%" url = {url} />
+            <ReactPlayer  width= "100%"  url = {url} />
           
            
           </div>

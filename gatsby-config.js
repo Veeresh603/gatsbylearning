@@ -29,14 +29,13 @@ module.exports = {
     {
     resolve: `gatsby-source-strapi`,
     options: {
-      apiURL: process.env.DEPLOY_URL ? 'https://new-strapi01.herokuapp.com' : 'http://localhost:1337',
+      apiURL: 'https://new-strapi01.herokuapp.com',
       queryLimit: 1000, // Default to 100
       contentTypes: [`courses`],
       //If using single types place them in this array.
-      singleTypes: [`courses`],
       // Possibility to login with a strapi user, when content types are not publically available (optional).
       loginData: {
-        identifier: "veereshkavalagi@gmail.com",
+        identifier: "veereshsapo@gmail.com",
         password: "veeru7737",
       },
     },
